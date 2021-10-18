@@ -1,0 +1,54 @@
+body {
+    background: rgba(214, 215, 218, 0.7);
+    background-image: url('Music Cassette Listen To Music.png');
+    background-size: 60% 60%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+}
+
+.content {
+    max-width: 500px;
+    margin-right: auto;
+    background:gray;
+    padding: 10px;
+    vertical-align:middle;
+    text-align: center;
+    border: 1px solid purple;
+    width: min-content;
+    border-radius: 10px;
+}
+
+img {
+    height: 120px;
+    width: 120px;
+}
+
+.hero-image {
+  background-image: url('Music Cassette Listen To Music.png');
+  background-position: right;
+  height: 500px;
+}
+
+
+#grid {
+    justify-content: center;
+    width: 450px;
+    height: 450px;
+}
+
+.Pad {
+
+    float: left;
+    height: 150px;
+    width: 150px;
+}
+
+.Pad:hover {
+    background: rgba(0, 0, 0, 0.1);
+    font-weight: 900;
+}
+
+.Pad:active {
+  color: red;
+}
